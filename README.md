@@ -39,4 +39,4 @@ Instructions for reproducing the main analyses will be added here once all files
 #*************************
 ## Contact
 #*************************
-For questions or collaborations, contact Vahid Nikoonejad Fard at vnf1981g@gmail.com or vn229@nau.edu.
+For questions or clarifications, please contact Marc Tollis at marc.tollis@nau.edu or Vahid N Fard at vnf1981g@gmail.com or vn229@nau.edu.
