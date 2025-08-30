@@ -1,6 +1,7 @@
 #### Pipeline and Data Repository for 
 ### **Recent Non-LTR Retrotransposon Activity Predicts Cancer Prevalence in Mammals**
-This Readme file provides a step-by-step guide for reproducing all analyses and results presented in the study entitled **"Recent Non-LTR Retrotransposon Activity Predicts Cancer Prevalence in Mammals"**. Please note that this pipeline relies heavily on self-developed codes, and our coding strategy may not be the most advanced and optimized way to parse the data. One may prefer different coding approaches or strategies, but the methods described here worked correctly and efficiently for our purposes and reflect the exact pipeline used in this study. All items referenced here with numbering, including shell, Python, and R scripts as well as datasheets, are provided in the supplementary "Shell Scripts & Commands" folder.
+This Readme file provides a step-by-step guide for reproducing all analyses and results presented in the study entitled **"Recent Non-LTR Retrotransposon Activity Predicts Cancer Prevalence in Mammals"**. Please note that this pipeline relies heavily on self-developed codes, and our coding strategy may not be the most advanced and optimized way to parse the data. One may prefer different coding approaches or strategies, but the methods described here worked correctly and efficiently for our purposes and reflect the exact pipeline used in this study. All items referenced here with numbering, including shell, Python, and R scripts as well as datasheets, are provided in the supplementary "Shell Scripts & Commands" folder. For additional questions or clarifications, please contact Marc Tollis at [marc.tollis@nau.edu](mailto:marc.tollis@nau.edu) or Vahid N Fard at [vn229@nau.edu](mailto:vn229@nau.edu).
+
 
 #### **Repeat annotation**
 
@@ -131,5 +132,6 @@ We used the `13_extract_PC_genes.sh` script to generate annotation files contain
 We also used [Liftoff v1.6.3](https://github.com/agshumate/Liftoff) to generate gene annotation files for species lacking annotations by transferring information from closely related species with high-quality annotations. Proteomes for these species were then generated from the annotation files using the `convert` function in [GFFtk v23.11.2](https://github.com/nextgenusfs/gfftk). As these steps are straightforward and fully described in their respective documentations, we do not provide additional details here.
 
 The statistical analyses were conducted in the R environment. All R scripts are thoroughly commented and self-explanatory. Please refer to the folder `2-R Scripts for Statistical Analyses` for the scripts corresponding to each analytical model used in this study.
+
 
 Please contact us for additional questions or clarification of any ambiguities.
