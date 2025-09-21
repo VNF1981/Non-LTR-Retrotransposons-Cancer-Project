@@ -5,7 +5,7 @@ This Readme file provides a step-by-step guide for reproducing all analyses and 
 
 #### **Repeat annotation**
 
-We employed [RepeatModeler v2.0](https://www.repeatmasker.org/RepeatModeler/) to perform *de novo* identification of repetitive elements and to create species-specific repeat libraries. We then queried each species library against the respective reference genome to generate repeat annotations via [RepeatMasker v4.1](https://www.repeatmasker.org/). The output files were converted to `bed` format using `rmsk2bed` from [BEDOPS v2.4.41](https://github.com/bedops/bedops). The length of each repeat element was then calculated with the custom script `0_calculate_lengths.py`, and the values in column 10 of the bed files were replaced with these lengths. By default, column 10 records the number of query bases outside the repeat match (as reported by RepeatMasker), a metric not required for our analyses. We substituted these values with element lengths to simplify downstream processing.
+We employed [RepeatModeler v2.0]([https://www.repeatmasker.org/RepeatModeler/](https://github.com/Dfam-consortium/RepeatModeler)) to perform *de novo* identification of repetitive elements and to create species-specific repeat libraries. We then queried each species library against the respective reference genome to generate repeat annotations via [RepeatMasker v4.1](https://www.repeatmasker.org/). The output files were converted to `bed` format using `rmsk2bed` from [BEDOPS v2.4.41](https://github.com/bedops/bedops). The length of each repeat element was then calculated with the custom script `0_calculate_lengths.py`, and the values in column 10 of the bed files were replaced with these lengths. By default, column 10 records the number of query bases outside the repeat match (as reported by RepeatMasker), a metric not required for our analyses. We substituted these values with element lengths to simplify downstream processing.
 
 #### **Abundance Model**
 
@@ -135,3 +135,4 @@ The statistical analyses were conducted in the R environment. All R scripts are 
 
 
 Please contact us for additional questions or clarification of any ambiguities.
+
