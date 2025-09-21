@@ -44,7 +44,7 @@ Aepyceros_melampus
 
 ---</pre>
 
-Each command in the script is explained with detailed comments. The flags used in the [BEDTools](https://bedtools.readthedocs.io/en/latest/) `closest` command are:
+Each command in the script is explained with detailed comments. The flags used in the [BEDTools]([https://bedtools.readthedocs.io/en/latest/](https://bedtools.readthedocs.io/en/latest/content/tools/closest.html)) `closest` command are:
 
 <code>`bedtools closest -d -a "TE_file.bed" -b "gene_annotation_file.bed" -t all -io -D a > gene_te_closest_distances.txt`</code>
 
@@ -135,5 +135,6 @@ The statistical analyses were conducted in the R environment. All R scripts are 
 
 
 Please contact us for additional questions or clarification of any ambiguities.
+
 
 
